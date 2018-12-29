@@ -303,14 +303,14 @@ public class BaseMetalsAddon extends BaseModAddon
 		setParents(copperChicken, YellowChicken, BrownChicken);
 		setParents(leadChicken, IronChicken, CyanChicken);
 		setParents(tinChicken, WhiteChicken, ClayChicken);
-		setParents(nickelChicken, WhiteChicken, GreenChicken);
+		setParents(nickelChicken, silverOreChicken, GreenChicken);
 		setParents(zincChicken, WhiteChicken, ClayChicken);
 		setParents(silverOreChicken, IronChicken, WhiteChicken);
 		setParents(platinumChicken, nickelChicken, silverOreChicken);
 		setParents(sulfurChicken, GunpowderChicken, FlintChicken);
 		setParents(saltpeterChicken, sulfurChicken, RedstoneChicken);
 		setParents(siliconChicken, ClayChicken, SandChicken);
-		setParents(aluminumChicken, FlintChicken, IronChicken);	
+		setParents(aluminumChicken, FlintChicken, IronChicken);
 		setParents(amberChicken, WaterChicken, LogChicken);
 		setParents(amethystChicken, GhastChicken, PurpleChicken);
 		if(this.getFirstOreDictionary("ingotCopper") != null)
